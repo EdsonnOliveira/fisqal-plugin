@@ -2,9 +2,10 @@
   "mcpServers": {
     "fisqal": {
       "type": "http",
-      "url": "https://api.fisqal.com.br/mcp",
-      "headers": {
-        "MCP-Protocol-Version": "2026-07-28"
+      "url": "https://api.fisqal.com.br/mcp?profile=chatgpt",
+      "oauth": {
+        "callbackUrl": "http://127.0.0.1:4321/callback",
+        "callbackPort": 4321
       }
     }
   }
