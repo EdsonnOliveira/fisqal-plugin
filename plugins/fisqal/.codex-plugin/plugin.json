@@ -1,6 +1,6 @@
 {
   "name": "fisqal",
-  "version": "0.1.0+codex.20260911043753",
+  "version": "0.1.0+codex.20260911044121",
   "description": "Emita e consulte documentos fiscais brasileiros pelo ChatGPT e Codex.",
   "author": {
     "name": "FISQAL",
@@ -37,6 +37,5 @@
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/logo.png"
   },
-  "mcpServers": "./.mcp.json",
-  "apps": "./.app.json"
+  "mcpServers": "./.mcp.json"
 }
